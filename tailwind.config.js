@@ -1,4 +1,6 @@
 module.exports = {
+  mode: "jit",
+  purge: ["./*.html"],
   content: ["./*.{html,js}"],
   theme: {
     extend: {
@@ -26,6 +28,7 @@ module.exports = {
       },
       borderRadius: {
         "4xl": "4.5rem",
+        "5xl": "6rem",
       },
     },
   },
