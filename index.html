@@ -13,143 +13,157 @@
 </head>
 
 <body>
-  <div>
-    <!--Main Container-->
-    <div
-      class="relative overflow-hidden text-white bg-gradient-to-br from-grad-nav100 to-grad-nav200 px-32 py-8 pb-24 rounded-bl-4xl bg-auto bg-center mb-40">
-      <!-- Top area -->
-      <!-- <img src="/images/bg-pattern-intro-desktop.svg" class="max-w-80 opacity-50 absolute z-0" alt=""> NOT WORKING -->
-      <nav class="flex justify-between text-sm mb-28 z-10">
-        <!-- navbar -->
-        <div class="flex items-center">
-          <img src="/images/logo.svg" alt="Logo">
-          <ul class="flex ml-14">
-            <li class="flex items-baseline ml-6">
-              <p class="mr-2">Product</p> <img src="/images/icon-arrow-light.svg" alt="">
-            </li>
-            <li class="flex items-baseline ml-6">
-              <p class="mr-2">Company</p> <img src="/images/icon-arrow-light.svg" alt="">
-            </li>
-            <li class="flex items-baseline ml-6">
-              <p class="mr-2">Connect</p> <img src="/images/icon-arrow-light.svg" alt="">
-            </li>
-          </ul>
-        </div>
-        <div class="flex">
-          <div class="px-8 py-2 cursor-pointer">Login</div>
-          <div class="px-8 py-2 border rounded-3xl border-white cursor-pointer bg-white text-primary-cta">Sign Up
-          </div>
-        </div>
-      </nav>
-      <header class="flex items-center gap-4 flex-col z-10">
-        <!--Heading-->
-        <h1 class="text-5xl"> A modern publishing platform</h1>
-        <p>Grow your audience and build your online brand
-        </p>
-        <div class="mt-8">
-          <Button class="border border-white rounded-full px-4 py-2 bg-white text-primary-cta mr-2">Start for
-            Free</Button>
-          <Button class="border border-white rounded-full px-4 py-2 ">Learn More</Button>
-        </div>
-      </header>
+  <!--Main Container-->
+  <div
+    class=" overflow-hidden relative  text-white bg-gradient-to-br from-grad-nav100 to-grad-nav200 px-32 py-8 pb-24 rounded-bl-4xl bg-auto bg-center mb-40">
+    <!-- Top area -->
+    <div class="absolute h-full w-[90rem] -z-10 top-[-30rem]">
+      <img src="/images/bg-pattern-intro-desktop.svg" class="opacity-80 relative -top-[70rem] left-10" alt="">
+      <!--Can't send it to back-->
     </div>
-    <main class="flex flex-col items-center text-neutral-body">
-      <!--Start of content-->
-      <h2 class="text-4xl -mb-24 text-primary-headings">Designed for the future</h2>
-      <div class="flex items-center justify-between">
-        <div class="ml-24 w-1/2 pr-20 mr-10">
-          <section class="mb-24">
-            <h4 class="text-primary-headings text-2xl mb-3"> Introducing an extensible editor </h4>
-            <p class="text-sm">Blogr features an exceedingly intuitive interface which lets you focus on one thing:
-              creating content.
-              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
-              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
-              change the looks of a blog.</p>
-          </section>
-          <section class="mb-4 mr-10">
-            <h4 class="text-primary-headings text-2xl mb-3"> Robust content management </h4>
-            <p class="text-sm">Flexible content management enables users to easily move through posts. Increase the
-              usability of your blog by adding customized categories, sections, format, or flow. With this
-              functionality, you're in full control.</p>
-          </section>
-        </div>
-        <div class="w-2/3 -mr-56 float-right">
-          <!-- Cool Design -->
-          <img class="" src="/images/illustration-editor-desktop.svg" alt="">
-        </div>
-      </div>
-      <div
-        class="flex justify-between items-center max-h-72 rounded-tr-4xl rounded-bl-4xl relative bg-gradient-to-bl from-grad-body100 to-grad-body200 text-white ">
-        <!-- Purple div -->
-        <img class="relative top-1 left-32 h-[25rem]" src="/images/illustration-phones.svg" alt="2 Phones">
-        <section class="mb-4 mr-10 w-1/2 pr-40">
-          <h4 class="text-4xl mb-3">State of the Art Infrastructure</h4>
-          <p class="text-sm">With reliability and speed in mind, worldwide data centers provide the backbone for
-            ultra-fast
-            connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your
-            site competitive.
-          </p>
-        </section>
+    <nav class="z-10 flex justify-between text-sm mb-28">
+      <!-- navbar -->
+      <div class="flex items-center">
+        <img src="/images/logo.svg" alt="Logo">
+        <ul class="flex ml-14">
+          <li class="flex items-baseline ml-6">
+            <p class="mr-2">Product</p> <img src="/images/icon-arrow-light.svg" alt="">
+          </li>
+          <li class="flex items-baseline ml-6">
+            <p class="mr-2">Company</p> <img src="/images/icon-arrow-light.svg" alt="">
+          </li>
+          <li class="flex items-baseline ml-6">
+            <p class="mr-2">Connect</p> <img src="/images/icon-arrow-light.svg" alt="">
+          </li>
+        </ul>
       </div>
       <div class="flex">
-        <!-- Laptop Part -->
-        <div>
-          <!-- Cool Design -->
-        </div>
-        <div>
-          <section class="mb-4 mr-10">
-            <h3 class="text-2xl mb-3">Free, open, simple</h3>
-            <p class="text-sm">Blogr is a free and open source application backed by a large community of helpful
-              developers. It
-              supports
-              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
-              tools,
-              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
-          </section>
-          <section class="mb-4 mr-10">
-            <h3 class="text-2xl mb-3">Powerful Tooling</h3>
-            <p class="text-sm"> Batteries included. We built a simple and straightforward CLI tool that makes
-              customization and
-              deployment a breeze,
-              but capable of producing even the most complicated sites.</p>
-          </section>
+        <div class="px-8 py-2 cursor-pointer">Login</div>
+        <div class="px-8 py-2 border rounded-3xl border-white cursor-pointer bg-white text-primary-cta">Sign Up
         </div>
       </div>
-      <footer class="grid">
-        <!-- Footer -->
-        <div>Logo</div>
-        <table>
-          <tr>
-            <th>Product</th>
-            <th>Company</th>
-            <th>Connect</th>
-          </tr>
-          <tr>
-            <td>Overview</td>
-            <td>About</td>
-            <td>Contact</td>
-          </tr>
-          <tr>
-            <td>Pricing</td>
-            <td>Team</td>
-            <td>Newsletter</td>
-          </tr>
-          <tr>
-            <td>Marketplace</td>
-            <td>Blog</td>
-            <td>LinkedIn</td>
-          </tr>
-          <tr>
-            <td>Features</td>
-            <td>Careers</td>
-          </tr>
-          <tr>
-            <td>Integrations</td>
-          </tr>
-        </table>
-      </footer>
-    </main>
+    </nav>
+    <header class="z-10 flex items-center gap-4 flex-col">
+      <!--Heading-->
+      <h1 class="text-5xl"> A modern publishing platform</h1>
+      <p>Grow your audience and build your online brand
+      </p>
+      <div class="mt-8">
+        <Button class="border border-white rounded-full px-4 py-2 bg-white text-primary-cta mr-2">Start for
+          Free</Button>
+        <Button class="border border-white rounded-full px-4 py-2 ">Learn More</Button>
+      </div>
+    </header>
   </div>
+  <main class="flex flex-col items-center text-neutral-body">
+    <!--Start of content-->
+    <h2 class="text-4xl -mb-24 text-primary-headings">Designed for the future</h2>
+    <div class="flex items-center justify-between overflow-hidden mb-20">
+      <div class="ml-24 w-1/2 pr-24">
+        <section class="mb-24">
+          <h4 class="text-primary-headings text-2xl mb-3"> Introducing an extensible editor </h4>
+          <p class="text-sm">Blogr features an exceedingly intuitive interface which lets you focus on one thing:
+            creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+            change the looks of a blog.</p>
+        </section>
+        <section class="mb-4 mr-10">
+          <h4 class="text-primary-headings text-2xl mb-3"> Robust content management </h4>
+          <p class="text-sm">Flexible content management enables users to easily move through posts. Increase the
+            usability of your blog by adding customized categories, sections, format, or flow. With this
+            functionality, you're in full control.</p>
+        </section>
+      </div>
+      <div class="w-2/3 -mr-56 float-right ">
+        <!-- Cool Design -->
+        <img class="" src="/images/illustration-editor-desktop.svg" alt="">
+      </div>
+    </div>
+    <div
+      class="mb-20 flex justify-between items-center h-80 rounded-tr-5xl rounded-bl-5xl relative bg-gradient-to-bl from-grad-body100 to-grad-body200 text-white">
+      <!-- Purple div -->
+      <div class="-z-10 absolute w-[65rem] h-full left-0 top-0 overflow-hidden">
+        <img class="relative -left-56 top-[-35rem]" src=" /images/bg-pattern-circles.svg" alt="">
+      </div>
+      <img class="relative top-1 left-32 h-[30rem]" src="/images/illustration-phones.svg" alt="2 Phones">
+      <section class="pl-10 mr-10 w-1/2 pr-32 z-10">
+        <h4 class="text-4xl mb-6">State of the Art Infrastructure</h4>
+        <p class="text-sm">With reliability and speed in mind, worldwide data centers provide the backbone for
+          ultra-fast
+          connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your
+          site competitive.
+        </p>
+      </section>
+    </div>
+
+    <div class="flex justify-between items-center overflow-hidden mb-32">
+      <!-- Laptop Part -->
+      <div class="w-2/3 -ml-60 ">
+        <img src="/images/illustration-laptop-desktop.svg" alt="">
+      </div>
+      <div class="ml-20 w-1/2 pr-20 mr-10">
+        <section class="mb-24">
+          <h3 class="text-2xl mb-3">Free, open, simple</h3>
+          <p class="text-sm">Blogr is a free and open source application backed by a large community of helpful
+            developers. It
+            supports
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+            tools,
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+        </section>
+        <section class="mb-4">
+          <h3 class="text-2xl mb-3">Powerful Tooling</h3>
+          <p class="text-sm"> Batteries included. We built a simple and straightforward CLI tool that makes
+            customization and
+            deployment a breeze,
+            but capable of producing even the most complicated sites.</p>
+        </section>
+      </div>
+    </div>
+    <footer
+      class="flex justify-around bg-neutral-footerbg text-neutral-footer w-full rounded-tr-5xl py-10 px-14 items-baseline">
+      <!-- Footer -->
+      <div class="w-1/3">
+        <img src="/images/logo.svg" alt="">
+      </div>
+      <div class="w-2/3">
+        <table class="w-full table-fixed">
+          <thead class="h-20">
+            <tr class="text-left">
+              <th>Product</th>
+              <th>Company</th>
+              <th>Connect</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Overview</td>
+              <td>About</td>
+              <td>Contact</td>
+            </tr>
+            <tr>
+              <td>Pricing</td>
+              <td>Team</td>
+              <td>Newsletter</td>
+            </tr>
+            <tr>
+              <td>Marketplace</td>
+              <td>Blog</td>
+              <td>LinkedIn</td>
+            </tr>
+            <tr>
+              <td>Features</td>
+              <td>Careers</td>
+            </tr>
+            <tr>
+              <td>Integrations</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </footer>
+  </main>
 </body>
 
 </html>
