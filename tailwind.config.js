@@ -30,6 +30,10 @@ module.exports = {
         "4xl": "4.5rem",
         "5xl": "6rem",
       },
+      backgroundImage: {
+        headerbg:
+          "linear-gradient(to left top,hsl(353, 100%, 62%,10%),hsl(13, 100%, 72%,10%)),url('/images/bg-pattern-intro-desktop.svg')",
+      },
     },
   },
   plugins: [require("tailwindcss"), require("autoprefixer")],
