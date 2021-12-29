@@ -11,3 +11,18 @@ tr {
 div.sub > p:hover {
   font-weight: bold;
 }
+
+@media screen and (max-width: 1024px) {
+  div.sub > p:hover {
+    display: block;
+  }
+  .menu {
+    @apply fixed w-[20rem] left-1/2 transform -translate-x-1/2 bg-white text-black  my-auto top-24 py-8 h-3/4 flex-col items-center shadow-2xl rounded-lg;
+  }
+  .menu > ul {
+    @apply flex-col justify-between h-2/3 text-xl items-center;
+  }
+  .sub {
+    @apply bg-gray-200 shadow-none w-56 text-center  no-underline text-gray-400 relative top-0 left-0 px-4 mb-2;
+  }
+}
